@@ -91,9 +91,9 @@ hBinder.bind(); // Выполнить связывание
 
 ```js
 var inputBinder = new NodeBindersFactory().build(
-    document.getElementById('input'),
-    document.getElementById('input'),
-    model
+    document.getElementById('input'), // Элемент, атрибуты которого используются для создания биндеров
+    document.getElementById('input'), // Субъект
+    model // Объект
 );
 inputBinder.sync();
 inputBinder.bind();
