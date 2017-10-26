@@ -1,8 +1,9 @@
 {
 	"name": "binder",
-	"version": "1.0",
+	"version": "1.0.0",
 	"devDependencies": {
 		"mocha": "^4.0",
-		"sinon": "^4.0"
+		"sinon": "^4.0",
+		"requirejs": "^2.0"
 	}
 }

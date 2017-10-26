@@ -1,0 +1,13 @@
+{
+  "name": "binder",
+  "description": "Simple data binding",
+  "main": "dist/amd/binder.min.js",
+  "authors": [
+    "Artur Sh. Mamedbekov"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bashka/binder",
+  "ignore": [
+    "node_modules"
+  ]
+}
